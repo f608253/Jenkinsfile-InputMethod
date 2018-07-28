@@ -4,7 +4,7 @@ pipeline {
 		stage ('build') {			
 	input{
 		message "Press Ok to continue"
-		submitter "Manav,user2"
+		submitter "manav,user2"
 		parameters {
 			string(name:'username', defaultValue: 'user', description: 'Username of the user pressing Ok')
 		}
